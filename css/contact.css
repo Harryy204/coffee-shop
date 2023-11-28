@@ -1,0 +1,19 @@
+.contact-section {
+    margin-top: 0;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+.form .row{
+    text-align: center;
+    align-items: center;
+}
+.form .row h3{
+    color: black;
+}
+.form .row .box img{
+    width: 200px;
+}
+.col-md-6 form{
+    padding-top: 120px;
+}

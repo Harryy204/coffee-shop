@@ -1,0 +1,68 @@
+.banner {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(../images/banner.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+}
+.banner h3 {
+    max-width: 50rem;
+    margin-top: 15%;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner p {
+    max-width: 50rem;
+    font-size: 20px;
+    padding: 9px;
+    color: #fff;
+}
+a.more-btn {
+    display: inline-block; 
+    text-decoration: none;
+    background-color: rgba(222, 82, 82, 0.779);
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+a.more-btn:hover {
+    background-color: brown;
+}
+/* css nội dung */
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    background: rgb(25,21,20);
+    margin: 0 auto;
+}
+.about .row .image{
+    flex: 1 1 40rem;
+}
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex: 1 1 40rem;
+}
+.about .row .content h3{
+    font-size: 40px;
+}
+.about .row .content p{
+    font-size: 20px;
+    padding: 10px 0;
+}
